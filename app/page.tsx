@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { profile, collaboration, skills } from "@/lib/data";
+import { profile, collaboration, skills, certifications } from "@/lib/data";
 
 export default function Home() {
   return (
@@ -55,8 +55,8 @@ export default function Home() {
         </h2>
         <div className="space-y-5 text-ink-soft leading-relaxed">
           <p>
-            Dr. Babika has spent her career at the intersection of environmental
-            regulation and applied earth science &mdash; thirteen years assessing,
+            Dr. Babika has her career at the intersection of environmental
+            regulation and applied earth science &mdash; thirteen years running assessing,
             monitoring and responding to oil spill incidents across Nigeria for
             NOSDRA, now as Chief Environmental Scientist within the Oil Field
             Assessment department. That practitioner&rsquo;s grounding sits
@@ -107,6 +107,44 @@ export default function Home() {
             </li>
           ))}
         </ul>
+      </section>
+
+      {/* Certifications */}
+      <section className="border-y rule bg-white/30">
+        <div className="mx-auto max-w-5xl px-6 py-16">
+          <h2 className="font-serif-display text-2xl text-teal-deep mb-8">
+            Certifications
+          </h2>
+          <div className="space-y-6">
+            {certifications.map((c) => (
+              <div
+                key={c.title}
+                className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b rule pb-5"
+              >
+                <div className="max-w-2xl">
+                  <p className="font-serif-display text-lg text-teal-deep leading-snug">
+                    {c.title}
+                  </p>
+                  <p className="text-sm text-ink-soft mt-1">
+                    {c.issuer}
+                    {c.credential ? ` \u00b7 ${c.credential}` : ""}
+                  </p>
+                  {c.link && (
+                    <a
+                      href={c.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-block mt-2 text-sm text-teal-deep underline decoration-ochre underline-offset-4 hover:text-teal"
+                    >
+                      Verify credential &rarr;
+                    </a>
+                  )}
+                </div>
+                <p className="text-sm text-ochre font-medium">{c.years}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
       <section className="mx-auto max-w-5xl px-6 pb-20">

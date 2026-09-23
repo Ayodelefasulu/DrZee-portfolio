@@ -1,7 +1,7 @@
 export const profile = {
   name: "Dr. Zaharatu Mohammed Babika",
   credentials: "PhD, MSc, BSc",
-  role: "Chief Environmental Scientist \u2014 Oil Field Assessment",
+  role: "Associate Environmental Standards Certified Professional (A-ESCP) \u2014 Oil Field Assessment",
   employer: "National Oil Spill Detection and Response Agency (NOSDRA), Nigeria",
   tagline:
     "Thirteen years assessing and responding to oil spill impacts across Nigeria, paired with a PhD in groundwater engineering \u2014 open to research collaborations that bring rigorous, field-tested science to the water and hydrocarbon challenges facing semi-arid and oil-producing regions.",
@@ -210,15 +210,53 @@ export const recommendations = [
       "Environmental Regulatory Compliance Expert \u2014 Energy Management, Waste Management & Carbon Reduction; managed Zaharatu directly at NOSDRA",
     link: null,
   },
+  {
+    quote:
+      "I have had the privilege of supervising Dr. Zaharatu Babika at NOSDRA\u2019s Oil Field Assessment Department for over 15 years, and in that time she has consistently proven herself to be a knowledgeable, diligent, and highly capable professional. She pursued her PhD at the University of Bath, United Kingdom, and true to her commitment to service, returned to continue contributing her expertise to our work.\n\nWithin the Oil Field Assessment Department, Zaharatu has been actively involved in Joint Investigation Visits to oil-impacted sites across the Niger Delta, mediation and community grievance resolution, soil and groundwater remediation monitoring, delineation mapping and Environmental Sensitivity Index (ESI) map interpretation, oil spill monitoring, technical document review, and damage assessment and compensation processes. She has also acquired additional specialized training in oil spill management, further strengthening her technical expertise.\n\nZaharatu brings a rare combination of technical rigor, strong work ethic, and genuine commitment to the communities and environments we serve. She is an excellent team player, always willing to collaborate to a positive working environment. She is reliable, collaborative, and consistently delivers work of the highest quality. It has been a pleasure to watch her grow professionally, and I recommend her wholeheartedly to anyone who has the opportunity to work with her.",
+    name: "Mrs Queendalyne Agu",
+    title:
+      "Chief Scientific Officer \u2014 Oil Field Assessment Department, NOSDRA Headquarters, Abuja",
+    link: null,
+  },
+];
+
+export const certifications = [
+  {
+    title: "ISO 14001:2026 \u2014 Environmental Management Systems (EMS)",
+    issuer: "Alison \u2014 Institute of Sustainability and Environmental Professionals",
+    years: "Issued Aug 2026",
+    credential: "Credential ID 1428-59961505",
+    link: "https://alison.com/verify/02816ebaf9",
+    note: "Strengthens knowledge and confidence to address environmental challenges, promote sustainability and support effective environmental management.",
+  },
+  {
+    title: "Carbon Literacy Standard Certification",
+    issuer: "University of Bath",
+    years: "Issued May 2022",
+    credential: "Credential ID 0033359v2.50",
+    link: null,
+  },
+  {
+    title: "Innovate UK Funded PreCure Programme",
+    issuer: "ICUK Midlands",
+    years: "Issued Mar 2022",
+    credential: null,
+    link: null,
+  },
+  {
+    title: "Stakeholder Engagement and Public Participation in Impact Assessment",
+    issuer: "Institute of Environmental Management and Assessment (IEMA)",
+    years: "Issued Mar 2023",
+    credential: "Verified credential \u2014 Zaharatu Babika",
+    link: null,
+  },
 ];
 
 export const training = [
   "Montreal Global Biodiversity Framework \u2014 implementation planning",
-  "Stakeholder Engagement and Public Participation in Impact Assessment",
   "EIA as a Design Tool and Consideration of Alternatives",
   "Screening & Scoping for Environmental Impact Assessment",
   "PAS 2080:2023 \u2014 Carbon Management in Infrastructure",
   "Scope 3 and Resource Efficiency in the Building Sector",
-  "Carbon Literacy Standard, University of Bath",
   "Introduction to Geographical Information Systems (GIS)",
 ];
